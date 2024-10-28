@@ -1,0 +1,24 @@
+---
+title: "Market Analysis on US Commodities and Stocks"
+author: "Alex Pugh"
+format:
+  revealjs:
+    theme: league
+    transition: concave 
+    embed-resources: true
+    slide-number: true
+ #   chalkboard: 
+  #    buttons: false
+    preview-links: auto
+   # logo: images/quarto.png
+  #  css: styles.css
+   # footer: "UConn Intro to Data Science: STAT 3255/5255"
+    #code-fold: 
+execute:
+  warning: false
+  error: false
+output:
+  quarto::quarto_presentation:
+    scrollable: true
+---
+
