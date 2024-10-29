@@ -3,7 +3,7 @@ title: "Market Analysis on US Commodities and Stocks"
 author: "Alex Pugh"
 format:
   revealjs:
-    theme: league
+    theme: serif
     transition: concave 
     embed-resources: true
     slide-number: true
@@ -22,3 +22,17 @@ output:
     scrollable: true
 ---
 
+## Outline {.scrollable} 
+- Background Information
+- Data Description and Cleaning
+- Hypothesis Testing
+- Time Series Analysis 
+- Discussion and Conclusion
+
+# Background Information
+
+## Project Info {.scrollable}
+- Chosen Data: United States stocks and commodities data for every trading day from January 2, 2020 to February 1, 2024
+- Relevant Variables: 
+  - 'Date', 'Natural_Gas_Price', 'Netflix_Volume', ...
+- Aims: Determine if market trends are predictable due to season patterns
