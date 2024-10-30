@@ -61,3 +61,26 @@ output:
 - The temporal data runs from January 1, 2020 to February 2, 2024.
 
 ## Data Cleaning {.scrollable}
+```{python}
+#| echo: false
+import pandas as pd
+import numpy as np
+pd.set_option('display.max_columns', None) 
+df = pd.read_csv("US_Stock_Data.csv")
+```
+
+Looking at the date format of our data, we immediately notice an issue:
+
+- The format of the date of the second data point is:
+
+```{python}
+df['Date'][1]
+```
+
+- The format of the date of the third data point is:
+
+```{python}
+df['Date'][2]
+```
+
+Both dates are in a day, month, year format. However, 
