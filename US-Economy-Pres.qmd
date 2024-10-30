@@ -36,3 +36,28 @@ output:
 - Relevant Variables: 
   - 'Date', 'Natural_Gas_Price', 'Netflix_Volume', ...
 - Aims: Determine if market trends are predictable due to season patterns
+
+## Relevant Works
+<!-- - <https://www.degruyter.com/document/doi/10.1515/jqas-2020-0017/html>: 
+  - Focuses on identifying pass coverage types
+- <https://heinonline.org/HOL/LandingPage?handle=hein.journals/frdipm18&div=31&id=&pag>: 
+  - Argues against league-wide defensive uniformity
+- <https://www.degruyter.com/document/doi/10.1515/jqas-2019-0052/html>: 
+  - Evaluates quarterbacks' performance through CPOE -->
+
+# Data Description and Cleaning
+
+## Approach {.scrollable}
+- Fix data structure
+- Observe missing variable statistics and explain their omission
+- Observe descriptive statistics of numerical variables
+- Plot line graphs of numerical variables over time
+
+
+## Data Description {.scrollable}
+- This data is from kaggle, uploaded by Muhammad Ehsan. 
+- Each row of the csv is a stock, commodity, or cryptocurrency volume or price data point. 
+- Each row is taken from a single trading day, with no days repeating. 
+- The temporal data runs from January 1, 2020 to February 2, 2024.
+
+## Data Cleaning {.scrollable}
